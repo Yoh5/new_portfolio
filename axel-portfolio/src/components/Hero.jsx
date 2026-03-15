@@ -1,19 +1,21 @@
+// Hero.jsx corrigé
 import React from "react";
 
 const Hero = () => {
   return (
-    <section className="hero">
-      <h1>Hi, I'm Axel</h1>
-      <h2>AI & Machine Learning Student</h2>
+    <section id="home" className="hero">  {/* Ajoute id="home" */}
+      <h1>Hi, I'm <span className="highlight">Axel AHO</span></h1>
+      <h2>AI & Data Engineer | Cloud & DevOps Enthusiast</h2>  {/* Titre plus complet */}
 
       <p>
-        I build intelligent systems using Machine Learning,
-        Data Science and Backend technologies.
+        Ingénieur IA & Data en formation. Je combine <strong>Machine Learning</strong>, 
+        <strong> Cloud Computing</strong> et <strong>DevOps</strong> pour construire 
+        des solutions intelligentes et scalables.
       </p>
 
       <div className="buttons">
-        <button>View Projects</button>
-        <button>Download CV</button>
+        <button className="btn-primary">View Projects</button>
+        <button className="btn-secondary">Download CV</button>
       </div>
     </section>
   );
