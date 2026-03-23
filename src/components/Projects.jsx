@@ -9,7 +9,7 @@ const Projects = () => {
       tech: ["Python", "FastAPI", "OpenAI API", "Pandas", "React", "TypeScript"],
       github: "https://github.com/Yoh5/intelligent_data_cleaner", // ← Mets ton vrai lien ici
       demo: null,
-      image: "../../public/data_cleaner.png", // ← Ou null si tu n'as pas d'image encore
+      image: "../../public/Airobo.jpg", // ← Ou null si tu n'as pas d'image encore
       color: "linear-gradient(135deg, #00d2ff, #3a7bd5)" // Bleu data/cyan évoquant la propreté
     },
     // DEVOPS / CLOUD
@@ -119,11 +119,11 @@ const Projects = () => {
                     className="project-bg-image"
                   />
                   <div className="project-image-overlay">
-                    <span className="project-icon-overlay">🔗</span>
+                    <span className="project-icon-overlay"></span>
                   </div>
                 </>
               ) : (
-                <span className="project-icon-fallback">💻</span>
+                <span className="project-icon-fallback"></span>
               )}
             </div>
             
